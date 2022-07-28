@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFB6C1;
+}
+
+.container{
+    width: 800px;
+    max-width: 800px;
+    max-height: 90vw;
+    height: auto;
+    margin: 30px 10px 20px 10px;
+}
+
+.img-profile-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.img-profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px #F08080;
+}
+
+.img-profile-box h1{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #FFF;
+    text-align: center;
+}
+
+.img-profile-box h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 2000;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+.link-box{
+    width: 100%;
+    max-width: 790px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFC0CB;
+    box-shadow:  5px 5px 10px #DB7093,
+                -5px -5px 10px #FF69B4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.link-box img{
+    width: 45px;
+    height: 45px;
+    margin-left: 20px;
+}
+
+.link-box a{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: 30px;
+    color: #353434;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.link-box:hover{
+    background-color: #F08080;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    color: #353434;
+    text-align: center;
+    margin-top: 50px;
+}
